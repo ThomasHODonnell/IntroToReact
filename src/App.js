@@ -1,23 +1,17 @@
 import logo from './logo.svg';
 import './App.css';
+import ClassBasedComps from './components/classBasedComps';
+import FunctionalBasedComp from './components/functionalBasedComps';
+import StateClass from './states/statesInClasses';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      {/* - this is what my browser sees. 
+          - Here, I import the components I want in the browser. */}
+        {/* <ClassBasedComps/>  */}
+        {/* <FunctionalBasedComp/> */}
+        <StateClass/>
     </div>
   );
 }
