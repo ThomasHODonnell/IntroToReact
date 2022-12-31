@@ -37,7 +37,7 @@ function App() {
         {/* <UseEffectHook/> */}
         {/* <UseContextHook/> */}
         {/* <UseReducerHook/> */}
-        <UseRefAndDOM/>
+        {/*<UseRefAndDOM/>*/}
     </div>
     </context.Provider>
 
