@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 
-class APIClass extends Component {
+class APIKeyRender extends Component {
 
     //This class will demo ... 
     // lists and keys 
@@ -67,4 +67,4 @@ class APIClass extends Component {
     }
 }
 
-export default APIClass; 
+export default APIKeyRender; 

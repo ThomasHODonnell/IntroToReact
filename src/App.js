@@ -5,7 +5,10 @@ import FunctionalBasedComp from './components/functionalBasedComps';
 import StateClass from './states/statesInClasses';
 import DemoComp from './components/demoComp';
 import EventHandler from './states/stateEvents';
-import APIClass from './components/apiClass';
+import APIClass from './states/apiKeyRender';
+import APIKeyRender from './states/apiKeyRender';
+import UseStateHook from './hooks/useStateHook';
+import UseEffectHook from './hooks/useEffectHook';
 
 function App() {
   return (
@@ -17,7 +20,9 @@ function App() {
         {/* <StateClass/> */}
         {/* <DemoComp/> */}
         {/* <EventHandler/> */}
-        <APIClass/>
+        {/* <APIKeyRender/> */}
+        {/* <UseStateHook/> */}
+        <UseEffectHook/>
     </div>
   );
 }
