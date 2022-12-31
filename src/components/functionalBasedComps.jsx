@@ -37,9 +37,15 @@ function FunctionalBasedComp() { // parent function to Child
     {/* - this is not just a call to PropEx
         - this is also where data can be passed.
         - child is a call without any args 
-        - propex is a call with args */}
+        - propex is a call with args
+        - parentCompHandler sends the function defined above
+        - flag is a local bool value 
+        - some data is a local string */}
             <PropEx parentCompHandler = {parentCompHandler} flag = {false} someData = 'data as prop' />
 
+
+            {/* - Here I call a new comp that I want to send data back to me
+            - this function simply prints a value that is passed to it */}
             <ReturnProp getValueFromChildComp = {getValueFromChildComp} />
 
         </div>
